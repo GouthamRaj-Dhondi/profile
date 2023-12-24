@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+.profile{
+    height:75vh;
+    width:75%;
+    box-shadow: 2px 5px 30px rgb(180, 177, 183);
+    border-radius: 10px;
+    border: #962fbf 1px solid;
+     
+}
+.profile .image{
+    display: flex;
+    justify-content: center; 
+    border-radius: 3px;
+    margin-top: 75px;
+    position: relative;
+     
+    background-color: rgba(127, 18, 229, 0.604);
+}
+.profile .profile-image{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    border:3px solid rgb(252, 254, 254);
+    padding:3px;
+}
+ .text{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+ }
+ .content h2{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+ }
+ .content p{
+    text-align: center;
+    margin-top:10px;
+    font-weight: 700;
+    font-size:15px;
+ }
+ .social-media{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    gap:15px;
+    flex-wrap: wrap;
+    
+ }
+ .social-media i{
+    padding:10px;
+    background-color: white(13, 13, 12);
+  
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+     
+ }
+ 
+ .fa-facebook:hover,.fa-linkedin:hover,.fa-whatsapp:hover,.fa-instagram:hover{
+   transform: scale(1.2);
+ }
+ .fa-facebook{
+    /* transform: scale(1.16); */
+    background-color: #316FF6;
+    border:none;
+    color:white;
+ }
+ .fa-linkedin{
+    /* transform: scale(1.16); */
+    background-color: #0A66C2;
+    border:none;
+    color:white;
+ }
+ .fa-instagram{
+    /* transform: scale(1.16); */
+    background:linear-gradient(135deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    border:none;
+    color:white;
+ }
+ .fa-whatsapp{
+    /* transform: scale(1.16); */
+    background-color: #25D366;
+    border:none;
+    color:white;
+ }
+ .buttons{
+    display:flex;
+    justify-content:center;
+    margin-top: 30px;
+    gap:35px;
+     
+    
+ }
+ .buttons button{
+     padding:10px 28px;
+     color:white;
+     background-color: blueviolet;
+     border: none;
+     border-radius:20px;
+     line-height: 20px;
+     letter-spacing: 0.1px;
+     transition: 0.1s linear;
+     cursor: pointer;
+     
+ }
+ .buttons button:hover{
+    color: blue;
+     background-color: white;
+     font-weight:bolder;
+     border:0.3px solid black;
+    
+      
+ }
+ .more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top:60px;
+}
+.more .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    cursor: pointer;
+    border-right:0.5px solid gray;
+    padding-right:10px;
+}
+/* .image::before{
+    content:"";
+    position: absolute;
+    
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: blueviolet;
+    
+} */
+.fa-heart:hover,.fa-comment:hover,.fa-share:hover{
+    color:rgb(6, 139, 255);
+    
+}
+/* @media screen and (width=450px) {
+
+   .profile{
+      height:70vh;
+      width:70%;
+   }
+   .buttons button{
+      line-height: 15px;
+      padding:7px 22px;
+      letter-spacing: none;
+      border-radius: 15px;
+   }
+   .buttons{
+      gap:25px;
+   }
+} */
